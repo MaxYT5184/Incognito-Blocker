@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incognito Blocker - Options</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .option {
+            margin-bottom: 15px;
+        }
+
+        label {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Options</h1>
+    
+    <!-- Option 1: Enable/Disable Incognito Blocking -->
+    <div class="option">
+        <label for="incognito-block">Block Incognito Tabs</label>
+        <input type="checkbox" id="incognito-block">
+    </div>
+
+    <!-- Option 2: Enable/Disable Notifications -->
+    <div class="option">
+        <label for="show-notifications">Show Notifications</label>
+        <input type="checkbox" id="show-notifications">
+    </div>
+
+    <button id="save-button">Save Settings</button>
+    <p id="status" style="color: green;"></p>
+
+    <script src="options.js"></script>
+</body>
+</html>
